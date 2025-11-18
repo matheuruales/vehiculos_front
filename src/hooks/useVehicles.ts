@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
+import type { Vehicle, VehiclePayload } from '../services/vehicleService'
 import {
-  Vehicle,
-  VehiclePayload,
   createVehicle,
   deleteVehicle,
   fetchVehicles,

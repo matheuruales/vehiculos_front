@@ -1,4 +1,4 @@
-import { Vehicle } from '../services/vehicleService'
+import type { Vehicle } from '../services/vehicleService'
 
 type VehicleTableProps = {
   vehicles: Vehicle[]

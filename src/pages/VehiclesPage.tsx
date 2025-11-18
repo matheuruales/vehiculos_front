@@ -3,7 +3,8 @@ import { Alert } from '../components/Alert'
 import { VehicleForm } from '../components/VehicleForm'
 import { VehicleTable } from '../components/VehicleTable'
 import { useVehicles } from '../hooks/useVehicles'
-import { VehiclePayload, apiBaseUrl } from '../services/vehicleService'
+import type { VehiclePayload } from '../services/vehicleService'
+import { apiBaseUrl } from '../services/vehicleService'
 
 export function VehiclesPage() {
   const {

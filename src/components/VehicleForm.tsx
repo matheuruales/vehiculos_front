@@ -1,6 +1,6 @@
 import type React from 'react'
 import { useEffect, useState } from 'react'
-import { Vehicle, VehiclePayload } from '../services/vehicleService'
+import type { Vehicle, VehiclePayload } from '../services/vehicleService'
 
 type VehicleFormProps = {
   initialData?: Vehicle | null
